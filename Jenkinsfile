@@ -8,7 +8,7 @@ pipeline{
             stage('test'){
                 sh 'Echo test is running'
             }
-            stage ('display'){
+            stage ('deploy'){
                 sh'echo "deploying the application'
             }
         }
